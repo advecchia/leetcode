@@ -2,7 +2,7 @@
 import unittest
 
 MINIMUM_INT_VALUE = -2**31
-MAXIMUM_INT_VALUE = (2**31) -1
+MAXIMUM_INT_VALUE =  2**31-1
 
 class SolutionValidator(object):
     def validate_int_value(self, value: int) -> None:
