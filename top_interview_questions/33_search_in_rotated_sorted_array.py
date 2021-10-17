@@ -15,7 +15,7 @@ class SolutionValidator(object):
 
     def validate_number_value(self, number: int) -> None:
         if MINIMUM_NUMBER_VALUE > number or number > MAXIMUM_NUMBER_VALUE:
-            raise ValueError('Invalid array length')
+            raise ValueError('Invalid number value')
 
     def validate_unique_numbers(self, len_array: int, len_set: int) -> None:
         if len_array != len_set:
